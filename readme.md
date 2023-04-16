@@ -1,12 +1,11 @@
 # Store API (backend portion of e-commerce app)
 
 # Routes
-
-|                                                                                                                           |     |                                |
-| ------------------------------------------------------------------------------------------------------------------------- | --- | ------------------------------ |
-| /api/products                                                                                                             | GET | Grab all the products          |
-| /api/products?name="search"&price[lte]=400&price[gte]=100&company="ikea"&rating[lte]=4&rating[gte]=1&featured=true&page=2 | GET | Grab all the filtered products |
-
+| Method | Details           | URL                                                                                                                       |
+|--------|-------------------|---------------------------------------------------------------------------------------------------------------------------|
+| GET    | All products      | /api/products                                                                                                             |
+| GET    | Filtered Products | /api/products?name="search"&price[lte]=400&price[gte]=100&company="ikea"&rating[lte]=4&rating[gte]=1&featured=true&page=2 |
+|        |                   |                                                                                                                           |
 # Tech used
 
 - Express js.
